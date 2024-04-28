@@ -1,0 +1,15 @@
+
+.image {
+    width: 100%;
+    margin-top: 2rem;
+    background-image:linear-gradient(red, #fff);
+    
+}
+
+.back {
+    background-image: url("../../Asstes/logo.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 20px;
+}

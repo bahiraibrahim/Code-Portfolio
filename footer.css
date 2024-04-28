@@ -1,0 +1,27 @@
+
+#footer{
+  color: var(--subtitle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+@media (max-width:800px) {
+  #footer {
+    flex-direction: column;
+  }
+}
+
+.footer_ul{
+  display: flex;
+  align-items: center; 
+  gap: 1rem;
+}
+
+.footer_ul > li:hover {
+  color: var(--blue);
+}
+
+
+
